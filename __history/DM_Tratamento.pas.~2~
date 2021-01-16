@@ -1,0 +1,26 @@
+unit DM_Tratamento;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Vcl.AppEvnts;
+
+type
+  TDataModule1 = class(TDataModule)
+    ApplicationEvents1: TApplicationEvents;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DataModule1: TDataModule1;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

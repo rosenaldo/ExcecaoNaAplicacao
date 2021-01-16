@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/01/13 20:45:26.000.938,=C:\Users\jrose\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/01/13 20:46:27.000.190,C:\Users\jrose\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\jrose\Documents\Excecao a Nivel da Aplicação\ExcecaoNaAplicacao\UTratamento.pas</Transaction>
+    <Transaction>2021/01/13 20:46:27.000.190,C:\Users\jrose\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\jrose\Documents\Excecao a Nivel da Aplicação\ExcecaoNaAplicacao\UTratamento.dfm</Transaction>
+    <Transaction>2021/01/13 20:46:42.000.779,C:\Users\jrose\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\jrose\Documents\Excecao a Nivel da Aplicação\ExcecaoNaAplicacao\Project.dproj</Transaction>
+    <Transaction>2021/01/13 20:46:58.000.688,=C:\Users\jrose\Documents\Excecao a Nivel da Aplicação\ExcecaoNaAplicacao\Unit1.pas</Transaction>
+    <Transaction>2021/01/13 20:47:28.000.437,C:\Users\jrose\Documents\Excecao a Nivel da Aplicação\ExcecaoNaAplicacao\Unit1.pas=C:\Users\jrose\Documents\Excecao a Nivel da Aplicação\ExcecaoNaAplicacao\DM_Tratamento.pas</Transaction>
+    <Transaction>2021/01/13 20:47:28.000.437,C:\Users\jrose\Documents\Excecao a Nivel da Aplicação\ExcecaoNaAplicacao\Unit1.dfm=C:\Users\jrose\Documents\Excecao a Nivel da Aplicação\ExcecaoNaAplicacao\DM_Tratamento.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

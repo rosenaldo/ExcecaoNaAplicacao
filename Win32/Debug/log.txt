@@ -1,0 +1,5 @@
+Menssagem de Erro:Floating point division by zero
+
+Data:15/01/2021
+Classe de Erro:EZeroDivide
+Mensagem de Erro:Floating point division by zero

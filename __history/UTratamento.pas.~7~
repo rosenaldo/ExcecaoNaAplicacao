@@ -1,0 +1,79 @@
+unit UTratamento;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Buttons, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Edit3: TEdit;
+    SB_SOMA: TSpeedButton;
+    SB_SUB: TSpeedButton;
+    SB_MULT: TSpeedButton;
+    SB_DIV: TSpeedButton;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    procedure SB_SOMAClick(Sender: TObject);
+    procedure SB_SUBClick(Sender: TObject);
+  private
+    { Private declarations }
+    function Somar(valor1, valor2: Currency): Currency;
+    function Subtrair(valor1, valor2: Currency): Currency;
+    function Multiplicar(valor1, valor2: Currency): Currency;
+    function Dividir(valor1, valor2: Currency): Currency;
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+function TForm1.Multiplicar(valor1, valor2: Currency): Currency;
+begin
+  Result := valor1 * valor1;
+end;
+
+function TForm1.Dividir(valor1, valor2: Currency): Currency;
+begin
+  Result := valor1 / valor2;
+end;
+
+procedure TForm1.SB_SOMAClick(Sender: TObject);
+var
+  Resultado: Currency;
+begin
+  Resultado := Somar(StrToCurr(Edit1.Text), StrToCurr(Edit2.Text));
+  Edit3.Text := CurrToStr(Resultado);
+
+end;
+
+procedure TForm1.SB_SUBClick(Sender: TObject);
+var
+  Resultado: Currency;
+begin
+  Resultado := Subtrair(StrToCurr(Edit1.Text), StrToCurr(Edit2.Text));
+  Edit3.Text := CurrToStr(Resultado);
+
+end;
+
+function TForm1.Somar(valor1, valor2: Currency): Currency;
+begin
+  Result := valor1 + valor2;
+end;
+
+function TForm1.Subtrair(valor1, valor2: Currency): Currency;
+begin
+  Result := valor1 - valor2;
+end;
+
+end.
